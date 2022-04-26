@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/staff-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-message/staff-message-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-message/staff-message-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-organization/staff-organization-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-organization/staff-organization-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/staff-server" charset="UTF-8" />
+  </component>
+</project>

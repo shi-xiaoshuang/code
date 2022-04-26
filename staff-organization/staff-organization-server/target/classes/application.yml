@@ -1,0 +1,11 @@
+server:
+  port: 7002
+spring:
+  application:
+    name: staff-organization
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
+
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="staff-message-api" />
+        <module name="staff-organization-common" />
+        <module name="staff-message-server" />
+        <module name="staff-server" />
+        <module name="staff-organization-server" />
+        <module name="staff-gateway" />
+        <module name="staff-message-common" />
+        <module name="staff-organization-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="staffcommon" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="staff-gateway" options="-parameters" />
+      <module name="staff-message-api" options="-parameters" />
+      <module name="staff-message-server" options="-parameters" />
+      <module name="staff-organization-api" options="-parameters" />
+      <module name="staff-organization-server" options="-parameters" />
+      <module name="staff-server" options="-parameters" />
+    </option>
+  </component>
+</project>

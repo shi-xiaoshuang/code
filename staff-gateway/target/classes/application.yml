@@ -1,0 +1,20 @@
+server:
+  port: 80
+spring:
+  application:
+    name: staff-geteway
+  cloud:
+    gateway:
+      routes:
+        - id: routes1
+          uri: lb://staff-message
+          predicates:
+            - Path=/message/**
+        - id: routes2
+          uri: lb://staff-organization
+          predicates:
+            - Path=/user/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4001/eureka/
